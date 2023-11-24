@@ -10,7 +10,7 @@ export default createGlobalStyle`
     body {
         font-family: 'Raleway', sans-serif;
     }
-
+    
     #root {
   display: grid;
   grid-template-rows: auto 1fr auto;

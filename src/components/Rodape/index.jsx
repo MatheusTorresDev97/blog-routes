@@ -1,9 +1,13 @@
-const Rodape = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+import { Footer } from "./styles";
+import MarcaRegistrada from "../../assets/marca_registrada.svg";
 
-export default Rodape
+const Rodape = () => {
+  return (
+    <Footer>
+      <img src={MarcaRegistrada} alt="Marca Registrada" /> Desenvolvido por
+      Matheus Torres.
+    </Footer>
+  );
+};
+
+export default Rodape;

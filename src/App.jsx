@@ -8,14 +8,14 @@ import Rodape from "./components/Rodape";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <ThemeProvider theme={theme}>
-        <GlobalStyles />
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <BrowserRouter>
+        <ScrollToTop />
         <AppRoutes />
         <Rodape />
-      </ThemeProvider>
-    </BrowserRouter>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 };
 
