@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
-background-color: ${({ theme }) => theme.COLORS.AZUL_ESCURO};
+background-color: ${({ theme }) => theme.COLORS.AZUL_PRINCIPAL};
 color: ${({ theme }) => theme.COLORS.BRANCO};
 padding: 2rem 0;
 

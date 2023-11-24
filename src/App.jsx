@@ -10,8 +10,8 @@ import Rodape from "./components/Rodape";
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <GlobalStyles />
       <BrowserRouter>
+      <GlobalStyles />
         <ScrollToTop />
         <Menu />
         <AppRoutes />
